@@ -19,6 +19,16 @@ public class InterpretDrawingFile {
 		chooser.showOpenDialog(null);
 		File f = new File(chooser.getSelectedFile().getPath());
 		Scanner in = new Scanner(f); //making Scanner with a File
+		String datatype=in.next();
+		int redComponent=in.nextInt();
+		int greenComponent=in.nextInt();
+		int blueComponent=in.nextInt();
+		boolean booleanisFilled=in.nextBoolean();
+		double x=in.nextDouble();
+		double y=in.nextDouble();
+		double halfWidth=in.nextInt();
+		double halfHeigh=in.nextInt();
+		
 		
 	}
 }
